@@ -11,7 +11,7 @@ public class Main {
     }
 
     private static void printPairs(int[] initArr, int sum) {
-        HashSet<Integer> hs = new HashSet<>();
+        HashSet<Integer> hs = new HashSet<Integer>();
         boolean isExist = false;
         for (int value : initArr) {
             int temp = sum - value;
